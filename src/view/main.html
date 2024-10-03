@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{Модель.ДанныеПриложения["Заголовок"]}}</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>{{Модель.ДанныеПриложения["ИмяСпециалиста"]}}</h1>
+        <p>{{Модель.ДанныеПриложения["ДолжностьСпециалиста"]}}</p>
+    </header>
+    @Контент    
+    <footer>
+        <p>&copy; 2024 {{Модель.ДанныеПриложения["ИмяСпециалиста"]}}. Все права защищены.</p>
+    </footer>
+</body>
+</html>
