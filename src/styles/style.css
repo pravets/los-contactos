@@ -67,6 +67,16 @@ li {
     color: var(--primary-color);
 }
 
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 footer {
     text-align: center;
     color: var(--secondary-color);
