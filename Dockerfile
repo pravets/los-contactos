@@ -1,4 +1,4 @@
-FROM sleemp/oscript:dev
+FROM sleemp/oscript:1.9.2
 
 WORKDIR /app
 
@@ -13,4 +13,4 @@ RUN opm install && \
 EXPOSE 3333
 VOLUME /app/autumn-properties.json
 
-CMD ["oscript", "ОтладкаПриложения.os"]
+CMD ["ОтладкаПриложения.os"]
