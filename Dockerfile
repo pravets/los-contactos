@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY src /app
 COPY packagedef /app
+COPY docker-entrypoint.sh /app
 
 WORKDIR /app
 
@@ -11,5 +12,4 @@ RUN opm install
 
 EXPOSE 3333
 
-ENTRYPOINT [""]
-CMD ["winow" "start"]
+ENTRYPOINT ["./docker-entrypoint.sh"]
