@@ -11,6 +11,5 @@ RUN opm install
 
 EXPOSE 3333
 
-VOLUME /app/autumn-properties.json
-
-ENTRYPOINT [ "winow start" ]
+ENTRYPOINT [""]
+CMD ["winow" "start"]
