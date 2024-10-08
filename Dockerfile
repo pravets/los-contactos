@@ -7,10 +7,10 @@ COPY packagedef /app
 
 WORKDIR /app
 
-RUN opm install && \
-    rm autumn-properties.json
+RUN opm install
 
 EXPOSE 3333
+
 VOLUME /app/autumn-properties.json
 
-CMD ["ОтладкаПриложения.os"]
+ENTRYPOINT [ "winow start" ]
